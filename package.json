@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "hwhujfkvas",
     "main": "index.js",
+    "type": "module",
     "engines": { "node": "18.x" },
     "scripts": {
         "start": "node index.js"
