@@ -84,6 +84,18 @@ app.post("/hello2", async(req, res) => {
 
 
 
+
+
+
+app.use("/", (req, res) => {
+
+    res.json("heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
+
+})
+
+
+
+
 if (process.env.API_Port) {
 
 
